@@ -1,0 +1,19 @@
+		--- PREPARAÇÃO DO PROJETO ---
+1 - Etapa:
+	- vue create . //para criar o projeto vue na pasta acessada.
+2 - Etapa:
+	- npm install json-server //Criando o API com JSON
+3 - Etapa:
+	- Add um novo script no arquivo package JSON, para iniciar o servidor do banco de dados.
+	- "backend": "json-server --watch db/db.json
+	- criar a pasta.
+	
+
+		--- CONFIGURAÇÃO DA VUE ROUTER ---
+
+1 - Etapa: 
+
+	- Renomear os Arquivos desejados e alterar os nomes das variaveis da pasta Router
+
+2 - Etapa:
+	- View Router - <router-view />

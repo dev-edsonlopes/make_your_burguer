@@ -77,39 +77,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "nome": "Edson",
-      "carne": "Maminha",
-      "pao": "Parmesão e Orégano",
-      "opicionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "Jennifer",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opicionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": "Edson",
-      "carne": "Maminha",
-      "pao": "Parmesão e Orégano",
-      "opicionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    }
-  ]
+  "burgers": []
 }

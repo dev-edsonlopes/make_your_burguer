@@ -30,7 +30,7 @@
       </div>
 
       <div id="opcionais-container" class="input-container">
-        <label id="opcionais-title" for="opicionais">Selecione os opcionais: </label>
+        <label id="opcionais-title" for="opcionais">Selecione os opcionais: </label>
         <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id">
             <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
             <span>{{opcional.tipo}}</span>
@@ -74,7 +74,7 @@ export default {
                 nome: this.nome,
                 carne: this.carne,
                 pao: this.pao,
-                opicionais: Array.from(this.opcionais),
+                opcionais: Array.from(this.opcionais),
                 status: "Solicitado"
             };
             const dataJson = JSON.stringify(data);
